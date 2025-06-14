@@ -1,4 +1,4 @@
 input = int(input("Enter no for table : "));
 
-for idx in range(10) :
-    print((idx + 1) * input)
+for idx in range(1,11) :
+    print(idx * input)
