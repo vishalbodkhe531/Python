@@ -1,5 +1,5 @@
 
-def sumAll(*args):
+def sumAll(*args):    # for multiple string we can also use **args
     print(sum(args))
     return sum(args)
 
