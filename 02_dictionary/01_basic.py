@@ -16,6 +16,9 @@ student["age"] = 21
 # Adding a new key-value pair
 student["city"] = "Shevgaon"
 
+student.pop("course");
+
 # Looping through dictionary
 for key, value in student.items():
     print(f"{key}: {value}")
+
