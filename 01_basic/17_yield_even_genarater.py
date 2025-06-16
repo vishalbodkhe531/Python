@@ -1,5 +1,3 @@
-
-
 def evenNo(no):
     for idx in range(2,no+1,2):
         yield idx
